@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>BMI Calculator</title>
+  <meta charset="utf-8">
+  <meta name="description" content="BMI Calculator">
+  <meta name="author" content="Min Zhong">
+  <meta name="generator" content="slidify" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/default.css" media="all" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/phone.css" 
+    media="only screen and (max-device-width: 480px)" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/slidify.css" >
+  <link rel="stylesheet" href="libraries/highlighters/highlight.js/css/tomorrow.css" />
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->  <link rel=stylesheet href="./assets/css/ribbons.css"></link>
+
+  
+  <!-- Grab CDN jQuery, fall back to local if offline -->
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+  <script>window.jQuery || document.write('<script src="libraries/widgets/quiz/js/jquery.js"><\/script>')</script> 
+  <script data-main="libraries/frameworks/io2012/js/slides" 
+    src="libraries/frameworks/io2012/js/require-1.0.8.min.js">
+  </script>
+  
+  
+
+</head>
+<body style="opacity: 0">
+  <slides class="layout-widescreen">
+    
+    <!-- LOGO SLIDE -->
+        <slide class="title-slide segue nobackground">
+  <hgroup class="auto-fadein">
+    <h1>BMI Calculator</h1>
+    <h2>Know Better about Your Weight</h2>
+    <p>Min Zhong<br/>Peer Review Assignment</p>
+  </hgroup>
+  <article></article>  
+</slide>
+    
+
+    <!-- SLIDES -->
+    <slide class="" id="slide-1" style="background:;">
+  <hgroup>
+    <h2>Motivation</h2>
+  </hgroup>
+  <article data-timings="">
+    <ul>
+<li>Overweight and obesity lead to high risk of developing serious health problems including heart disease, high blood pressure, type II diabetes, etc..</li>
+<li>One third of all Americans are obese.</li>
+<li>Assessing your weight and health risk:
+
+<ul>
+<li>Body Mass Index (BMI)</li>
+<li>Waist circumference</li>
+<li>Risk factors for diseases and conditions associated with obesity</li>
+</ul></li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-2" style="background:;">
+  <hgroup>
+    <h2>Facts about BMI</h2>
+  </hgroup>
+  <article data-timings="">
+    <ul>
+<li>BMI is a number calculated from a person&#39;s weight and height.</li>
+<li>BMI is a fairy reliable and also easy to assess indicator of body fatness for most people. It can be considered an alternative for direct measurements of body fat.</li>
+<li>BMI is used as a screening tool to identify possible problems for adults. It is one of the best methods for population assessment of overweight and obesity, and allow yourself to compare weight status to that of the general population.</li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-3" style="background:;">
+  <hgroup>
+    <h2>Calculation and Interpretation of BMI</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>BMI is calculated the same way for both adults and children. The calculation is based on the following formulas:</p>
+
+<h3>\[BMI=\frac{weight (kg)}{height (m)^2}=703\frac{weight (lbs)}{height (inch)^2}\]</h3>
+
+<p><img src="figure/1.png" title="plot of chunk 1" alt="plot of chunk 1" style="display: block; margin: auto;" /></p>
+
+<p>Example: the person with height 1.65 m has a normal weight range from 50.4 kg to 68.1 kg.</p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-4" style="background:;">
+  <hgroup>
+    <h2>BMI Calcultor App on Shiny!</h2>
+  </hgroup>
+  <article data-timings="">
+    <h3>You Are Just One Click Away from Your BMI!</h3>
+
+<p>To help you assess your weight status, we have developed an interactive app on Shinyapps website. Just go to the <a href="https://ayanamilei.shinyapps.io/BMI_calculator/">app</a> and input your height and weight in your comfortable measure, the <a href="https://ayanamilei.shinyapps.io/BMI_calculator/">app</a> will determine your BMI in no time! Also, the <a href="https://ayanamilei.shinyapps.io/BMI_calculator/">app</a> has an general classification table for you to determine the weight range. You can also use <a href="http://en.wikipedia.org/wiki/Body_mass_index">wiki page</a> if you feel necessary.</p>
+
+<p>Our App will help you have better control of your body fat. Make a goal, and work for it!</p>
+
+<p><img src="assets/img/health.jpg" alt="ask"></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+    <slide class="backdrop"></slide>
+  </slides>
+  <div class="pagination pagination-small" id='io2012-ptoc' style="display:none;">
+    <ul>
+      <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=1 title='Motivation'>
+         1
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=2 title='Facts about BMI'>
+         2
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=3 title='Calculation and Interpretation of BMI'>
+         3
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=4 title='BMI Calcultor App on Shiny!'>
+         4
+      </a>
+    </li>
+  </ul>
+  </div>  <!--[if IE]>
+    <script 
+      src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js">  
+    </script>
+    <script>CFInstall.check({mode: 'overlay'});</script>
+  <![endif]-->
+</body>
+  <!-- Load Javascripts for Widgets -->
+  
+  <!-- MathJax: Fall back to local if CDN offline but local image fonts are not supported (saves >100MB) -->
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        inlineMath: [['$','$'], ['\\(','\\)']],
+        processEscapes: true
+      }
+    });
+  </script>
+  <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/2.0-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  <!-- <script src="https://c328740.ssl.cf1.rackcdn.com/mathjax/2.0-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+  </script> -->
+  <script>window.MathJax || document.write('<script type="text/x-mathjax-config">MathJax.Hub.Config({"HTML-CSS":{imageFont:null}});<\/script><script src="libraries/widgets/mathjax/MathJax.js?config=TeX-AMS-MML_HTMLorMML"><\/script>')
+</script>
+<!-- LOAD HIGHLIGHTER JS FILES -->
+  <script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <!-- DONE LOADING HIGHLIGHTER JS FILES -->
+   
+  </html>
